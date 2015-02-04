@@ -1,7 +1,0 @@
-({
-    block: 'bh-block',
-    content: [
-        { elem: 'caption' },
-        { elem: 'btn' }
-    ]
-})

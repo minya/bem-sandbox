@@ -1,6 +1,6 @@
 /* global MAKE:false */
 
-// process.env.YENV = 'production';
+process.env.YENV = 'development';
 
 var PATH = require('path');
 
@@ -21,7 +21,9 @@ MAKE.decl('BundleNode', {
         return [
             'bemjson.js',
             'bemdecl.js',
+            'priv.js',
             'deps.js',
+            'bh.js',
             'bemhtml',
             'browser.js+bemhtml',
             'stylus',
