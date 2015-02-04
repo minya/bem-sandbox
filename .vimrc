@@ -1,0 +1,2 @@
+coloscheme=solarized
+syntax=on

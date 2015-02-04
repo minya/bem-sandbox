@@ -1,0 +1,10 @@
+block('mishgans-first-block')(
+    tag()('div'),
+    content()(function(){
+        return [{
+            elem: 'caption',
+            content: this.ctx.text
+        }];
+    }),
+    elem('caption')(tag()('h1'))
+);
