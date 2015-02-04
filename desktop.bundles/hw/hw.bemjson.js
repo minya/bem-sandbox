@@ -15,6 +15,9 @@
         {
             block: 'mishgans-second-block',
             text: 'Ololo'
+        },
+        {
+            block: 'bh-block'
         }
     ]
 })
