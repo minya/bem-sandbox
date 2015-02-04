@@ -1,9 +1,6 @@
 block('mishgans-second-block').js()(true);
 block('mishgans-second-block')(
-    content()(function() {
-        return { elem: 'item', content: this.ctx.text };
-    }),
     elem('item')(
-        content()(function(){ return [applyNext()]; })
+        content()(function(){ return this.ctx.text; })
     )
 );

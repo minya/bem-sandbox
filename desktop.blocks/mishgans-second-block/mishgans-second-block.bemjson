@@ -1,2 +1,6 @@
 ({
+    block: 'mishgans-second-block',
+    content: [
+        { elem: 'item' }
+    ]
 })
